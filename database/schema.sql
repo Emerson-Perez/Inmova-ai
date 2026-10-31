@@ -1,9 +1,7 @@
--- INMOVA AI · Esquema de base de datos (MySQL 8)
 CREATE DATABASE IF NOT EXISTS inmova_ai CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE inmova_ai;
 
--- ========== ACCESO ==========
-CREATE TABLE roles (
+CREATE TABLE IF NOT EXISTS roles (
   id TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(40) NOT NULL UNIQUE,
   descripcion VARCHAR(160) NULL,
@@ -12,7 +10,7 @@ CREATE TABLE roles (
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
-CREATE TABLE usuarios (
+CREATE TABLE IF NOT EXISTS usuarios (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   rol_id TINYINT UNSIGNED NOT NULL,
   nombres VARCHAR(80) NOT NULL,
@@ -29,21 +27,20 @@ CREATE TABLE usuarios (
   FOREIGN KEY (rol_id) REFERENCES roles(id)
 ) ENGINE=InnoDB;
 
--- ========== CATÁLOGO ==========
-CREATE TABLE tipos_propiedad (
+CREATE TABLE IF NOT EXISTS tipos_propiedad (
   id TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(40) NOT NULL UNIQUE,
   estado TINYINT(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB;
 
-CREATE TABLE modalidades (
+CREATE TABLE IF NOT EXISTS modalidades (
   id TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(40) NOT NULL UNIQUE,
   slug VARCHAR(40) NOT NULL UNIQUE,
   estado TINYINT(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB;
 
-CREATE TABLE ubicaciones (
+CREATE TABLE IF NOT EXISTS ubicaciones (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   departamento VARCHAR(60) NOT NULL,
   provincia VARCHAR(60) NOT NULL,
@@ -54,7 +51,7 @@ CREATE TABLE ubicaciones (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
-CREATE TABLE propiedades (
+CREATE TABLE IF NOT EXISTS propiedades (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   tipo_id TINYINT UNSIGNED NOT NULL,
   modalidad_id TINYINT UNSIGNED NOT NULL,
@@ -79,7 +76,7 @@ CREATE TABLE propiedades (
   INDEX idx_busqueda (modalidad_id, publicado, precio, area_m2)
 ) ENGINE=InnoDB;
 
-CREATE TABLE propiedad_multimedia (
+CREATE TABLE IF NOT EXISTS propiedad_multimedia (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   propiedad_id INT UNSIGNED NOT NULL,
   tipo ENUM('foto','video','plano','documento','panoramica360') NOT NULL,
@@ -91,8 +88,7 @@ CREATE TABLE propiedad_multimedia (
   FOREIGN KEY (propiedad_id) REFERENCES propiedades(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
--- ========== CRM ==========
-CREATE TABLE clientes (
+CREATE TABLE IF NOT EXISTS clientes (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   usuario_id INT UNSIGNED NULL,
   nombres VARCHAR(80) NOT NULL,
@@ -105,7 +101,7 @@ CREATE TABLE clientes (
   FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE leads (
+CREATE TABLE IF NOT EXISTS leads (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   cliente_id INT UNSIGNED NOT NULL,
   propiedad_id INT UNSIGNED NULL,
@@ -122,7 +118,7 @@ CREATE TABLE leads (
   FOREIGN KEY (vendedor_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE oportunidades (
+CREATE TABLE IF NOT EXISTS oportunidades (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   lead_id INT UNSIGNED NOT NULL,
   propiedad_id INT UNSIGNED NOT NULL,
@@ -142,7 +138,7 @@ CREATE TABLE oportunidades (
   FOREIGN KEY (propiedad_id) REFERENCES propiedades(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE seguimientos (
+CREATE TABLE IF NOT EXISTS seguimientos (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   lead_id INT UNSIGNED NOT NULL,
   usuario_id INT UNSIGNED NOT NULL,
@@ -158,7 +154,7 @@ CREATE TABLE seguimientos (
   FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE visitas (
+CREATE TABLE IF NOT EXISTS visitas (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   lead_id INT UNSIGNED NULL,
   propiedad_id INT UNSIGNED NOT NULL,
@@ -177,7 +173,7 @@ CREATE TABLE visitas (
   FOREIGN KEY (vendedor_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE reservas (
+CREATE TABLE IF NOT EXISTS reservas (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   lead_id INT UNSIGNED NULL,
   moneda CHAR(3) NOT NULL DEFAULT 'PEN',
@@ -198,8 +194,7 @@ CREATE TABLE reservas (
   FOREIGN KEY (aprobada_por) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
--- ========== AGENTE IA ==========
-CREATE TABLE cierres (
+CREATE TABLE IF NOT EXISTS cierres (
  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  reserva_id INT UNSIGNED NOT NULL UNIQUE,
  registrado_por INT UNSIGNED NOT NULL,
@@ -215,7 +210,7 @@ CREATE TABLE cierres (
 
 ALTER TABLE oportunidades ADD CONSTRAINT fk_oportunidad_cierre FOREIGN KEY (cierre_id) REFERENCES cierres(id);
 
-CREATE TABLE conversaciones_ia (
+CREATE TABLE IF NOT EXISTS conversaciones_ia (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   cliente_id INT UNSIGNED NULL,
   lead_id INT UNSIGNED NULL,
@@ -233,7 +228,7 @@ CREATE TABLE conversaciones_ia (
   FOREIGN KEY (derivada_a) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE mensajes_ia (
+CREATE TABLE IF NOT EXISTS mensajes_ia (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   conversacion_id INT UNSIGNED NOT NULL,
   emisor ENUM('cliente','ia','vendedor') NOT NULL,
@@ -243,15 +238,14 @@ CREATE TABLE mensajes_ia (
   FOREIGN KEY (conversacion_id) REFERENCES conversaciones_ia(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
--- ========== ACADEMY (E-LEARNING) ==========
-CREATE TABLE ia_cuotas (
+CREATE TABLE IF NOT EXISTS ia_cuotas (
  dia DATE NOT NULL,
  clave VARCHAR(64) NOT NULL,
  solicitudes INT UNSIGNED NOT NULL DEFAULT 0,
  PRIMARY KEY (dia,clave)
 ) ENGINE=InnoDB;
 
-CREATE TABLE cursos (
+CREATE TABLE IF NOT EXISTS cursos (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   instructor_id INT UNSIGNED NOT NULL,
   titulo VARCHAR(160) NOT NULL,
@@ -263,7 +257,7 @@ CREATE TABLE cursos (
   FOREIGN KEY (instructor_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE lecciones (
+CREATE TABLE IF NOT EXISTS lecciones (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   curso_id INT UNSIGNED NOT NULL,
   titulo VARCHAR(160) NOT NULL,
@@ -276,7 +270,7 @@ CREATE TABLE lecciones (
   FOREIGN KEY (curso_id) REFERENCES cursos(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
-CREATE TABLE evaluaciones (
+CREATE TABLE IF NOT EXISTS evaluaciones (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   version INT UNSIGNED NOT NULL DEFAULT 1,
   curso_id INT UNSIGNED NOT NULL,
@@ -288,7 +282,7 @@ CREATE TABLE evaluaciones (
   FOREIGN KEY (curso_id) REFERENCES cursos(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
-CREATE TABLE preguntas (
+CREATE TABLE IF NOT EXISTS preguntas (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   evaluacion_id INT UNSIGNED NOT NULL,
   enunciado TEXT NOT NULL,
@@ -300,7 +294,7 @@ CREATE TABLE preguntas (
   FOREIGN KEY (evaluacion_id) REFERENCES evaluaciones(id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
-CREATE TABLE inscripciones (
+CREATE TABLE IF NOT EXISTS inscripciones (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   curso_id INT UNSIGNED NOT NULL,
   usuario_id INT UNSIGNED NOT NULL,
@@ -311,7 +305,7 @@ CREATE TABLE inscripciones (
   FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE evaluacion_intentos (
+CREATE TABLE IF NOT EXISTS evaluacion_intentos (
  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  evaluacion_id INT UNSIGNED NOT NULL,
  inscripcion_id INT UNSIGNED NOT NULL,
@@ -326,7 +320,7 @@ CREATE TABLE evaluacion_intentos (
  INDEX idx_intentos_alumno (evaluacion_id,inscripcion_id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE respuestas (
+CREATE TABLE IF NOT EXISTS respuestas (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   intento_id INT UNSIGNED NULL,
   inscripcion_id INT UNSIGNED NOT NULL,
@@ -340,7 +334,7 @@ CREATE TABLE respuestas (
   FOREIGN KEY (pregunta_id) REFERENCES preguntas(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE progreso_cursos (
+CREATE TABLE IF NOT EXISTS progreso_cursos (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   inscripcion_id INT UNSIGNED NOT NULL,
   leccion_id INT UNSIGNED NOT NULL,
@@ -351,7 +345,7 @@ CREATE TABLE progreso_cursos (
   FOREIGN KEY (leccion_id) REFERENCES lecciones(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE certificados (
+CREATE TABLE IF NOT EXISTS certificados (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   intento_id INT UNSIGNED NULL UNIQUE,
   nombre_alumno VARCHAR(161) NULL,
@@ -365,7 +359,7 @@ CREATE TABLE certificados (
   FOREIGN KEY (inscripcion_id) REFERENCES inscripciones(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE simulaciones_ventas (
+CREATE TABLE IF NOT EXISTS simulaciones_ventas (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   usuario_id INT UNSIGNED NOT NULL,
   escenario VARCHAR(160) NOT NULL,
@@ -389,7 +383,7 @@ CREATE TABLE simulaciones_ventas (
   FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE propiedad_documentos (
+CREATE TABLE IF NOT EXISTS propiedad_documentos (
  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  propiedad_id INT UNSIGNED NOT NULL,
  titulo VARCHAR(120) NOT NULL,
@@ -404,7 +398,8 @@ CREATE TABLE propiedad_documentos (
  FOREIGN KEY (subido_por) REFERENCES usuarios(id),
  INDEX idx_documentos_propiedad (propiedad_id,estado)
 ) ENGINE=InnoDB;
-CREATE TABLE documento_eventos (
+
+CREATE TABLE IF NOT EXISTS documento_eventos (
  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  documento_id INT UNSIGNED NOT NULL,
  usuario_id INT UNSIGNED NOT NULL,
@@ -415,3 +410,20 @@ CREATE TABLE documento_eventos (
  INDEX idx_documento_eventos (documento_id,id)
 ) ENGINE=InnoDB;
 
+INSERT IGNORE INTO roles (id, nombre, descripcion) VALUES
+ (1,'superadmin','Superadministrador'),
+ (2,'admin','Administrador inmobiliario'),
+ (3,'vendedor','Vendedor'),
+ (4,'cliente','Cliente'),
+ (5,'instructor','Instructor'),
+ (6,'practicante','Practicante vendedor');
+
+INSERT IGNORE INTO tipos_propiedad (id, nombre) VALUES (1,'Terreno'),(2,'Departamento'),(3,'Casa');
+
+INSERT IGNORE INTO modalidades (id, nombre, slug) VALUES
+ (1,'Venta de terrenos','terrenos'),
+ (2,'Venta de departamentos','venta-deptos'),
+ (3,'Alquiler de departamentos','alquiler');
+
+INSERT IGNORE INTO usuarios (id, rol_id, nombres, apellidos, email, password_hash) VALUES
+ (1,1,'Super','Admin','admin@inmova.test','$2y$10$T9KSN7foNdJdVUKj5FjbB.UwF36CtN1c0s59//uZ5xuCWxjlkgNeu');
