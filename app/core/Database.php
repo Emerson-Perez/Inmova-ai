@@ -19,8 +19,15 @@ class Database
 
             // Conexiones remotas en la nube (ej. TiDB Cloud) exigen SSL/TLS obligatorio:
             if (!in_array($db['host'], ['127.0.0.1', 'localhost'], true)) {
-                foreach (['/etc/pki/tls/certs/ca-bundle.crt', '/etc/ssl/certs/ca-certificates.crt'] as $ca) {
-                    if (is_file($ca)) {
+                $caCandidates = [
+                    '/etc/pki/tls/certs/ca-bundle.crt',
+                    '/etc/ssl/certs/ca-certificates.crt',
+                    ini_get('openssl.cafile'),
+                    ini_get('curl.cainfo'),
+                    'C:\\xampp\\apache\\bin\\curl-ca-bundle.crt',
+                ];
+                foreach ($caCandidates as $ca) {
+                    if ($ca && is_file($ca)) {
                         $options[PDO::MYSQL_ATTR_SSL_CA] = $ca;
                         break;
                     }
