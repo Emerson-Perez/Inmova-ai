@@ -1,0 +1,4 @@
+﻿OK: dos solicitudes simultáneas dejan una sola reserva activa (rejected,saved)
+OK: cambio concurrente de inmueble no crea reserva sobre la propiedad anterior (rejected)
+OK: restauraciones simultáneas respetan máximo de 20 documentos (rejected,saved)
+OK: lección retirada durante la espera no acepta progreso (rejected)

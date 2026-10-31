@@ -1,0 +1,24 @@
+{
+  "run": "demo_20261029_002758_be2720",
+  "checks": [
+    {
+      "prueba": "Visitante es dirigido al login",
+      "correcta": true
+    },
+    {
+      "prueba": "Credenciales inválidas muestran un error",
+      "correcta": true
+    },
+    {
+      "prueba": "Administrador ingresa al dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta vendedora exige cambio de contraseña",
+      "correcta": true
+    }
+  ],
+  "javascript_errors": [],
+  "failure": "Error: Locator.click: Error: strict mode violation: locator(\"form button[type=submit], form button.btn-primary\") resolved to 2 elements:\n    1) <button type=\"submit\">…</button> aka get_by_text(\"Cerrar sesión\")\n    2) <button class=\"btn btn-primary\">Actualizar contraseña</button> aka get_by_role(\"button\", name=\"Actualizar contraseña\")\n\nCall log:\n  - waiting for locator(\"form button[type=submit], form button.btn-primary\")\n",
+  "accounts_disabled": true
+}

@@ -1,0 +1,40 @@
+﻿OK: monto no supera el precio
+OK: moneda del inmueble conservada
+OK: no duplicar solicitud activa del mismo lead
+OK: vendedor no aprueba
+OK: aprobación actualiza inmueble y CRM
+OK: segunda aprobación bloqueada
+OK: eliminación de inmueble reservado bloqueada
+OK: edición no libera reserva aprobada
+OK: vendedor no cancela aprobada
+OK: cancelación libera y restaura etapa anterior
+OK: reserva cancelada no se reactiva
+OK: rechazo registrado
+OK: vendedor cancela su pendiente
+OK: historial de cambios conservado
+OK: no cerrar reserva pendiente
+OK: vendedor no confirma cierre
+OK: cierre no inferior a reserva
+OK: cierre no futuro
+OK: cierre venta guarda tipo y moneda
+OK: cierre actualiza reserva y CRM
+OK: cierre actualiza inmueble y retira del portal
+OK: otras solicitudes pendientes rechazadas
+OK: cierre duplicado bloqueado
+OK: reserva cerrada no se cancela
+OK: inmueble cerrado no se elimina
+OK: inmueble cerrado no vuelve a disponible
+OK: consulta cerrada no se reabre
+OK: no cerrar reserva pendiente
+OK: vendedor no confirma cierre
+OK: cierre no inferior a reserva
+OK: cierre no futuro
+OK: cierre alquiler guarda tipo y moneda
+OK: cierre actualiza reserva y CRM
+OK: cierre actualiza inmueble y retira del portal
+OK: otras solicitudes pendientes rechazadas
+OK: cierre duplicado bloqueado
+OK: reserva cerrada no se cancela
+OK: inmueble cerrado no se elimina
+OK: inmueble cerrado no vuelve a disponible
+OK: consulta cerrada no se reabre

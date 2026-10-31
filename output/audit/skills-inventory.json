@@ -1,0 +1,383 @@
+{
+  "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+  "skills": [
+    {
+      "name": "accessibility-compliance-accessibility-audit",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "resources/implementation-playbook.md",
+          "sha256": "dd2898808f986c64c22be8d91c291902dc3a271d4fea78e55756edc3db690afd"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "2a0de39f16d96cccb6da2950395e73d69d6de942a837779a64670c9005bb7ef1"
+        }
+      ]
+    },
+    {
+      "name": "backend-security-coder",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "resources/implementation-playbook.md",
+          "sha256": "35ccd46598ed5e42dbf0139bf1113d70a2722bf884113fce2072224e58e74db1"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "21312abd5ace8c80cee948b94041ab0c8be07e32429cfd9e8f2f7c8fd66d5abf"
+        }
+      ]
+    },
+    {
+      "name": "code-review-excellence",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "resources/implementation-playbook.md",
+          "sha256": "45c1cea214653f5b469c2ba560216e5f6d86958ef048eb2e080e1092f11f0602"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "b5141711afadad742f31e576bd45d6a68e9d259425b064bf1352bcb19dadf49a"
+        }
+      ]
+    },
+    {
+      "name": "database-design",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "database-selection.md",
+          "sha256": "6517da101e8eacc02e485444d8a8520c27249f3b2b02b01b5b02e4f7886b260c"
+        },
+        {
+          "path": "indexing.md",
+          "sha256": "eec8ce01e7c1c8ec2aed7a96d260a52b12d90c2996288e32814a8d9cf29cc22a"
+        },
+        {
+          "path": "migrations.md",
+          "sha256": "b5b9e518f18264cdd946f4914d73c2355065ba712cb61db01ba59bacb95423a2"
+        },
+        {
+          "path": "optimization.md",
+          "sha256": "10a6f484fdae9973957030d8ef47bad4ffba9f7709e9c824883a97f92925a722"
+        },
+        {
+          "path": "orm-selection.md",
+          "sha256": "823722dc58247415b0d1ca596de629f656a40adefcbef8e69381c566aefacc0c"
+        },
+        {
+          "path": "schema-design.md",
+          "sha256": "0a83addd1e9963e3d958eb00474d7dc72881c4290a97bac03bf09553607e3f6f"
+        },
+        {
+          "path": "scripts/schema_validator.py",
+          "sha256": "04f513a0c467e7fe63dd2fb97b447c0bdbdc191b8b8ff1a1fe9931be40f2bfb2"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "83c571590a5ae3a19bd4dfdd7e8d160a9c93457add2800e21adb0a7752d67d0a"
+        }
+      ]
+    },
+    {
+      "name": "deployment-procedures",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1167b62c864e10bf39a4b7abaec72c79734e6cb42d47f07517c5ae1a9566bc76"
+        }
+      ]
+    },
+    {
+      "name": "error-handling-patterns",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "resources/implementation-playbook.md",
+          "sha256": "82f4d49efd1adcfddc0ac79dfe75567bc0c9a261ad7c9efca711644d88b11812"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "c5b2b744b8908d8f6c759f1d53159f8b4871dfa540829f66361dc555b152a0e1"
+        }
+      ]
+    },
+    {
+      "name": "llm-evaluation",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "references/benchmarking.md",
+          "sha256": "af9b16ab441e09eed0e46379cd7689778b82d24a9d5ff95ca92f726ef15689cb"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "9abf92538721f388eedf9ddf76fcdfe5855967e9d15f4be5c0ae95441d1c70b7"
+        }
+      ]
+    },
+    {
+      "name": "php-pro",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b7ee0e40a73d5f71179b494aa787dcb2fcd6944774b210291fd53ffeac42a879"
+        }
+      ]
+    },
+    {
+      "name": "rag-implementation",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "170c556afd8ba5d93024d7c1d541f16ac5b97f25f4525b65973ef0e67a873885"
+        }
+      ]
+    },
+    {
+      "name": "security-auditor",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3fe4101b061c5f0da3d97c7262a162ad90ebfea759cde04fa52cafe94e38195f"
+        }
+      ]
+    },
+    {
+      "name": "software-architecture",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1550695e08d0dc57d3e0f44040c11c7e223c7ccccb88c023e5ba729a4a8f387a"
+        }
+      ]
+    },
+    {
+      "name": "sql-optimization-patterns",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "resources/implementation-playbook.md",
+          "sha256": "a42a1614aafa56f50dac45735a87b982a1c437ca57d876b570dcbd072d09c648"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03"
+        }
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "condition-based-waiting-example.ts",
+          "sha256": "3b3c9a69cdcb0d1432a9415355017708d263c46ce40e1b342c7153f54ce35e15"
+        },
+        {
+          "path": "condition-based-waiting.md",
+          "sha256": "8216dfa7b998a26db6e7d8a6ca402b54007e85935bbbce9d10dea5c85f6ef696"
+        },
+        {
+          "path": "CREATION-LOG.md",
+          "sha256": "8e303984dbbecb064fdd5fb7a4179ad6448605152a8508a30a6a47bfbc347050"
+        },
+        {
+          "path": "defense-in-depth.md",
+          "sha256": "699a39eea90a7ba67c854dd30cb7792ab9be45079dbf465b43bd4664ea9d2814"
+        },
+        {
+          "path": "find-polluter.sh",
+          "sha256": "d05b4922ce3909ed1abd85a60a6dfce3b57ab41434b001375df4a6bd35a7eecd"
+        },
+        {
+          "path": "root-cause-tracing.md",
+          "sha256": "ca7445f1351528083d394c5f333d4e78c52274a2a469fb8e65474a2b37cb3a2a"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "2043610969aecd8cb2c9526c1b1a07419721c5f6ba436d0954a18fd5af25ffc8"
+        },
+        {
+          "path": "test-academic.md",
+          "sha256": "1e4ac55ef3069e7fba7d68f3c361d4f281e211d7b3ebb32e57d7bde0fe978681"
+        },
+        {
+          "path": "test-pressure-1.md",
+          "sha256": "fb898817b4c6cc9aeab8facb558f760708baf94e79916b534bafc5a7fc947faa"
+        },
+        {
+          "path": "test-pressure-2.md",
+          "sha256": "56cf0ae6a7330d57fd56fdccde739e8d6375852b8931ade40c185417e299ab9b"
+        },
+        {
+          "path": "test-pressure-3.md",
+          "sha256": "980963c46434e54181b885998a4ec5640cb28a14b6dae86da108d5801b257366"
+        }
+      ]
+    },
+    {
+      "name": "test-driven-development",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f76a880cfb6a6ffa49d34ed1e8ce8681d8037d6e1607f11c1d165d63be9067bd"
+        },
+        {
+          "path": "testing-anti-patterns.md",
+          "sha256": "16d50387e73bcf8ca1a3096a589421c62ac2d4ed84df8e2121c95b016c6f0030"
+        }
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "data/charts.csv",
+          "sha256": "3bb2fcc38e773ccb944e05ea77e67b7296e0065820f91cf60b7a473ad2d5fc6a"
+        },
+        {
+          "path": "data/colors.csv",
+          "sha256": "bd1fd6cf7d93408c0250ba383e01bea2ad1f0a1c9dccd746636c6a80ed937fbf"
+        },
+        {
+          "path": "data/icons.csv",
+          "sha256": "26be5e47c4c3fc7acae52ac8bbfaf1bf9e5ddc9c01808953a3636f8615b9de9f"
+        },
+        {
+          "path": "data/landing.csv",
+          "sha256": "c4860b378071fe0c23f08eaec3aafd8846bf099776931a13dcb5bc2f49056189"
+        },
+        {
+          "path": "data/products.csv",
+          "sha256": "5511f7e27ae1c1370cb037b0caef198e70be116a6521e132bac5e2961a94b7c5"
+        },
+        {
+          "path": "data/prompts.csv",
+          "sha256": "0f5acb17260f64fcc96668414d0e8b37418dcb5eec043f49b986b99399831ff3"
+        },
+        {
+          "path": "data/react-performance.csv",
+          "sha256": "904c8afcda229629545912dde0e8ac37503757131f0169f80b016f1f58c4fd3f"
+        },
+        {
+          "path": "data/stacks/flutter.csv",
+          "sha256": "e470e6bc2bcd8562667cc764d1e1afb0be0a30ca4dc9ec12fa18b19d46f156bd"
+        },
+        {
+          "path": "data/stacks/html-tailwind.csv",
+          "sha256": "a7c410190d94e040999e61903eed2ef95ef419e18d86745acce1aecde89224da"
+        },
+        {
+          "path": "data/stacks/nextjs.csv",
+          "sha256": "06a8e8c13bd44696c6ebb4cb6c4d8dea440e3de8cce77616512529ed29258f0c"
+        },
+        {
+          "path": "data/stacks/nuxt-ui.csv",
+          "sha256": "05d6e74501b2b6a636faed32450622759f49a5bcafad971f5f4e7eba0eb7be71"
+        },
+        {
+          "path": "data/stacks/nuxtjs.csv",
+          "sha256": "f7a3f2d9542856d00199f85c6c023b7c284cc698e2e6e12d61afce2edacb24d6"
+        },
+        {
+          "path": "data/stacks/react-native.csv",
+          "sha256": "a08ca77fcf6b6d9531982dce465366296013bfcf12d2938ac72ad57cf0c4f085"
+        },
+        {
+          "path": "data/stacks/react.csv",
+          "sha256": "918d377038ec3d07ee0246a80a382d77706658b1699496279308a937b0c35519"
+        },
+        {
+          "path": "data/stacks/shadcn.csv",
+          "sha256": "395c2e415ef6f48a474acccdc8eb2c7258a6ed751a5037ba171a2d8823e02ded"
+        },
+        {
+          "path": "data/stacks/svelte.csv",
+          "sha256": "bc8d158994a8bdf412830a9dd5e5a5534edd2f367a6e50e0ebd4d76f592dfa3f"
+        },
+        {
+          "path": "data/stacks/swiftui.csv",
+          "sha256": "de7b3d2cc3d8fff94e6bc93895414cdf63d60e789fb0472b39500571798e2873"
+        },
+        {
+          "path": "data/stacks/vue.csv",
+          "sha256": "e6c41d53c6ca448a0240f8484fd65c023915976076c159c70ae1dd11c040d10a"
+        },
+        {
+          "path": "data/styles.csv",
+          "sha256": "e012cef80e78dbd7e84cf6a22eb50686be0043fd60c19d8c5db7ef8285e47d85"
+        },
+        {
+          "path": "data/typography.csv",
+          "sha256": "6c0cd9db74f75d384773b347e1ddac42692c8d00c56790e8a0e619bfa4b9537d"
+        },
+        {
+          "path": "data/ui-reasoning.csv",
+          "sha256": "2d44b3295111ebdff85c6f612e7855ed95936d720179c8fbc5e5ecf5c7f8063a"
+        },
+        {
+          "path": "data/ux-guidelines.csv",
+          "sha256": "b99f9337978e3974c50473450d745f342d53ddbf7b0a2b142928a608fd256a41"
+        },
+        {
+          "path": "data/web-interface.csv",
+          "sha256": "772462d3fad31069260817c0ace05a9ca1044633ff1595977884789cfff48d7f"
+        },
+        {
+          "path": "scripts/core.py",
+          "sha256": "0ad6279cdc2aca8236f12b5159f91d66f3f215c86688081400944e2e9af0cd8c"
+        },
+        {
+          "path": "scripts/design_system.py",
+          "sha256": "19e7e364950887ef90ca897ab47ad37489025be543d5dde452bdb8d0418d0f19"
+        },
+        {
+          "path": "scripts/search.py",
+          "sha256": "fec2ed2e6031c2fe44f8e22e7c910555476acc1e370797cd90c047e7e52bd78b"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "aaa68f90e83c500410c93f4316e86580154c448853742bff4d6bbb0480c5c59b"
+        }
+      ]
+    },
+    {
+      "name": "verification-before-completion",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d934a22af86463bc3518987dd52e2851698dd582b1f96b0f053994c67eb8244b"
+        }
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "revision": "e9809578fd426a284af017c5db99f8eb6628e6ca",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "path": "scripts/with_server.py",
+          "sha256": "dea1e4fa247942366c9d8c1873f9fe7c1c29a6fdd8d75f4f565e794ed8402394"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "946fff6c750af27f95fa31c1358ccaad3ba7c359833dbd9b6356dd8dd0f6ea49"
+        }
+      ]
+    }
+  ]
+}

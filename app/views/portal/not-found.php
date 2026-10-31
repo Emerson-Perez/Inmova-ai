@@ -1,0 +1,1 @@
+<div class="card card-body text-center py-5"><h1 class="h3">Inmueble no disponible</h1><p>Esta propiedad no está publicada o ya no está disponible en el portal.</p><a href="<?= BASE_URL ?>/portal">Volver al catálogo</a></div>

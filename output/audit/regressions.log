@@ -1,0 +1,9 @@
+﻿OK: contraseña con byte nulo se rechaza antes del hash
+OK: fecha de reporte malformada produce error de validación
+OK: fecha de cierre malformada produce error de validación
+OK: carga de foto incompleta rechazada sin advertencias
+OK: reserva aprobada protege modalidad de operación
+OK: consulta perdida impide reactivar visita antigua
+OK: inmueble vendido impide reactivar visita antigua
+OK: inmueble alquilado impide reactivar visita antigua
+OK: edición obsoleta de inmueble desactivado rechazada

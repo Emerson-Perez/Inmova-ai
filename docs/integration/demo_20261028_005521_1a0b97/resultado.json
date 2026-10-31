@@ -1,0 +1,118 @@
+{
+  "run": "demo_20261028_005521_1a0b97",
+  "completed_at": "2026-10-27 19:56:02",
+  "base_url": "http://localhost/inmova-ai/public",
+  "main_property_id": 93,
+  "main_lead_id": 56,
+  "opportunity_id": 5,
+  "visit_id": 24,
+  "reservation_id": 47,
+  "closing_id": 24,
+  "document_id": 25,
+  "practice_property_id": 94,
+  "practice_lead_id": 57,
+  "practice_seller": "Alexa Alata",
+  "visit_datetime": "2026-10-27T19:56",
+  "checks": [
+    {
+      "prueba": "Cuenta nueva exige cambiar contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Cambio de contraseña habilita acceso al módulo de propiedades",
+      "correcta": true
+    },
+    {
+      "prueba": "Precios decimales y superiores a cinco millones rechazados",
+      "correcta": true
+    },
+    {
+      "prueba": "Dos propiedades con ubicación y fotografía principal",
+      "correcta": true
+    },
+    {
+      "prueba": "PDF privado descargable como adjunto",
+      "correcta": true
+    },
+    {
+      "prueba": "Inmueble visible en portal sin iniciar sesión",
+      "correcta": true
+    },
+    {
+      "prueba": "Portal crea clientes y consultas en etapa Nuevo",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedora accede a la consulta asignada",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor sin asignación no accede al CRM ni a documentos ajenos",
+      "correcta": true
+    },
+    {
+      "prueba": "Oportunidad creada con monto y probabilidad",
+      "correcta": true
+    },
+    {
+      "prueba": "Próxima acción aparece en Centro de pendientes",
+      "correcta": true
+    },
+    {
+      "prueba": "Seguimiento completado conserva trazabilidad",
+      "correcta": true
+    },
+    {
+      "prueba": "Visita futura no puede marcarse realizada antes de su hora",
+      "correcta": true
+    },
+    {
+      "prueba": "Reporte del día exporta CSV",
+      "correcta": true
+    },
+    {
+      "prueba": "Caso abierto listo para practicar con vendedor asignado",
+      "correcta": true
+    },
+    {
+      "prueba": "Visita realizada con resultado registrado",
+      "correcta": true
+    },
+    {
+      "prueba": "Reserva duplicada y aprobación por vendedor bloqueadas",
+      "correcta": true
+    },
+    {
+      "prueba": "Aprobación sincroniza inmueble y consulta a Reservado",
+      "correcta": true
+    },
+    {
+      "prueba": "Cierre actualiza propiedad Vendido y la retira del portal",
+      "correcta": true
+    },
+    {
+      "prueba": "Reserva y consulta quedan cerradas",
+      "correcta": true
+    },
+    {
+      "prueba": "Oportunidad ganada adopta monto final y probabilidad 100",
+      "correcta": true
+    },
+    {
+      "prueba": "Inmueble cerrado oculto al visitante y cierre duplicado bloqueado",
+      "correcta": true
+    },
+    {
+      "prueba": "Historial muestra seguimiento, visita, reserva y cierre",
+      "correcta": true
+    },
+    {
+      "prueba": "Operación aparece en reportes del día",
+      "correcta": true
+    },
+    {
+      "prueba": "Documentación privada se conserva tras el cierre",
+      "correcta": true
+    }
+  ]
+}

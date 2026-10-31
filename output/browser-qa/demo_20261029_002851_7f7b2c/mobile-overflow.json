@@ -1,0 +1,97 @@
+[
+  {
+    "tag": "TABLE",
+    "cls": "table align-middle mb-0",
+    "width": 659.140625
+  },
+  {
+    "tag": "THEAD",
+    "cls": "",
+    "width": 659.140625
+  },
+  {
+    "tag": "TR",
+    "cls": "",
+    "width": 659.140625
+  },
+  {
+    "tag": "TH",
+    "cls": "",
+    "width": 112.015625
+  },
+  {
+    "tag": "TH",
+    "cls": "",
+    "width": 116.390625
+  },
+  {
+    "tag": "TH",
+    "cls": "",
+    "width": 100.46875
+  },
+  {
+    "tag": "TH",
+    "cls": "",
+    "width": 68.078125
+  },
+  {
+    "tag": "SPAN",
+    "cls": "visually-hidden",
+    "width": 1
+  },
+  {
+    "tag": "TBODY",
+    "cls": "",
+    "width": 659.140625
+  },
+  {
+    "tag": "TR",
+    "cls": "",
+    "width": 659.140625
+  },
+  {
+    "tag": "TD",
+    "cls": "text-nowrap",
+    "width": 112.015625
+  },
+  {
+    "tag": "TD",
+    "cls": "",
+    "width": 116.390625
+  },
+  {
+    "tag": "TD",
+    "cls": "",
+    "width": 100.46875
+  },
+  {
+    "tag": "SPAN",
+    "cls": "badge text-bg-success",
+    "width": 58.59375
+  },
+  {
+    "tag": "TD",
+    "cls": "",
+    "width": 68.078125
+  },
+  {
+    "tag": "A",
+    "cls": "btn btn-sm btn-outline-primary",
+    "width": 38.078125
+  },
+  {
+    "tag": "A",
+    "cls": "btn btn-sm btn-outline-secondary",
+    "width": 38.078125
+  },
+  {
+    "tag": "FORM",
+    "cls": "d-inline-block ms-1",
+    "width": 34.078125
+  },
+  {
+    "tag": "BUTTON",
+    "cls": "btn btn-sm btn-outline-danger",
+    "width": 34.078125
+  }
+]

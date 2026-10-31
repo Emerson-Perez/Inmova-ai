@@ -1,0 +1,24 @@
+﻿OK: examen sin preguntas no se activa
+OK: instructor ajeno no modifica examen
+OK: no rendir sin completar lecciones
+OK: formulario de versión anterior rechazado
+OK: respuestas incompletas rechazadas sin consumir intento
+OK: claves correctas no se incluyen en preguntas del alumno
+OK: intento incorrecto no aprueba
+OK: reenvío de formulario no consume otro intento
+OK: fallar no genera certificado
+OK: examen bloqueado tras primer intento
+OK: preguntas bloqueadas tras primer intento
+OK: no borrar preguntas de intentos existentes
+OK: contenido formativo bloqueado tras primer intento
+OK: nota redondeada y umbral exacto correctos
+OK: aprobación genera certificado único y verificable
+OK: verificación por código recupera certificado
+OK: resultado histórico no contiene claves de respuesta
+OK: no repetir examen aprobado
+OK: no deshacer progreso certificado
+OK: límite de tres intentos
+OK: intentos fallidos no afectan certificado ajeno
+OK: certificado conserva datos de emisión
+OK: archivar curso conserva verificación del certificado
+OK: curso archivado no admite exámenes

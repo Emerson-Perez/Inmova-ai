@@ -1,0 +1,18 @@
+﻿OK: nombre normalizado y PDF reconocido
+OK: rutas fuera de almacenamiento rechazadas
+OK: extensión no PDF rechazada
+OK: contenido disfrazado rechazado
+OK: límite dos MB aplicado
+OK: propietario y administrador tienen acceso
+OK: vendedor ajeno no encuentra documento
+OK: vendedor ajeno no lista documentos
+OK: instructor sin acceso documental
+OK: descarga ajena bloqueada
+OK: descarga autorizada registra evento
+OK: retiro bloquea descarga y conserva archivo
+OK: retirado no se descarga ni como administrador
+OK: retiro repetido no duplica eventos
+OK: restauración recupera acceso
+OK: restauración respeta máximo de documentos activos
+OK: carga respeta máximo de documentos activos
+OK: inmueble inactivo no expone documentos

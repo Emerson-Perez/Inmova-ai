@@ -1,0 +1,27 @@
+﻿OK: cliente sin acceso al entrenamiento
+OK: escenario inválido rechazado
+OK: IA desactivada no inicia práctica IA
+OK: inicio por guion sin llamadas a IA
+OK: privacidad del participante y lectura de instructor
+OK: supervisor no responde por participante
+OK: vendedor no revisa equipo
+OK: mínimo tres respuestas para finalizar
+OK: reenvío guiado no duplica turno
+OK: guiada finaliza con autoevaluación y sin nota inventada
+OK: historial finalizado no admite mensajes
+OK: abandono conserva historial
+OK: no evaluar antes de tres respuestas
+OK: solicitud simultánea bloqueada
+OK: reenvío IA no consume solicitud adicional
+OK: reenvío IA no consume solicitud adicional
+OK: reenvío IA no consume solicitud adicional
+OK: datos de contacto evidentes omitidos y store false
+OK: nota total se calcula en servidor y no confía en total del modelo
+OK: rúbrica fuera de rango rechazada
+OK: retroalimentación guarda modelo, puntaje y resultado
+OK: práctica evaluada no cambia
+OK: fallo del proveedor libera solicitud y no agrega turno
+OK: respuesta tardía no sobrescribe una solicitud nueva
+OK: máximo cinco prácticas IA diarias
+OK: máximo ocho respuestas por práctica
+Proveedor simulado: no se hicieron llamadas a OpenAI ni se modificó su configuración.

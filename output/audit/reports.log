@@ -1,0 +1,29 @@
+﻿OK: vendedor solo ve sus registros; fin del día incluido
+OK: inventario y cierres limitados al vendedor
+OK: venta/alquiler y PEN/USD se agrupan por separado
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: rango excluye actividad pero conserva inventario actual
+OK: CSV conserva las cuatro agrupaciones monetarias
+OK: vendedor solo ve sus registros; fin del día incluido
+OK: inventario y cierres limitados al vendedor
+OK: venta/alquiler y PEN/USD se agrupan por separado
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: total por operación y moneda correcto
+OK: rango excluye actividad pero conserva inventario actual
+OK: CSV conserva las cuatro agrupaciones monetarias
+OK: administrador incluye ambos vendedores: Propiedades activas
+OK: administrador incluye ambos vendedores: Consultas recibidas
+OK: administrador incluye ambos vendedores: Visitas en el período
+OK: administrador incluye ambos vendedores: Reservas solicitadas
+OK: administrador incluye ambos vendedores: Operaciones cerradas
+OK: cierres fuera del rango excluidos
+OK: rango inválido rechazado
+OK: rango inválido rechazado
+OK: rango inválido rechazado
+OK: rango inválido rechazado
+OK: rol cliente sin acceso

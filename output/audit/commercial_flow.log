@@ -1,0 +1,20 @@
+﻿OK: consulta general puede seleccionar inmueble para continuar el flujo
+OK: selección conserva historial de oportunidad e inmueble
+OK: reenvío de selección no duplica historial
+OK: otro vendedor no modifica la consulta
+OK: roles no comerciales no seleccionan inmueble
+OK: vendedor no selecciona borrador ajeno
+OK: inmueble vendido no se selecciona para una nueva operación
+OK: inmueble inactivo no se selecciona para una nueva operación
+OK: visita activa bloquea cambio de inmueble
+OK: sin visita activa se puede elegir alternativa y corregir etapa de agenda
+OK: visita histórica conserva su inmueble original
+OK: reserva pendiente bloquea cambio de inmueble
+OK: reserva pendiente impide convertir venta en alquiler
+OK: no aprobar una reserva histórica incompatible con la consulta
+OK: reserva aprobada bloquea cambio de inmueble
+OK: no cerrar una reserva incompatible con el inmueble de la consulta
+OK: cierre utiliza el inmueble seleccionado y la operación correcta
+OK: cierre sincroniza consulta, reserva e inventario
+OK: cierre gana la alternativa elegida y cancela la otra
+OK: consulta cerrada conserva su inmueble

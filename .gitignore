@@ -1,0 +1,4 @@
+/app/config/ai.local.json
+/app/config/ai.local.*.tmp
+/app/storage/documents/*.pdf
+/tmp/

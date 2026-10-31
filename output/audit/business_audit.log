@@ -1,0 +1,17 @@
+﻿OK: no cerrar sin operación
+OK: no reservar sin aprobación
+OK: rechazos conservan etapa e historial
+OK: reserva aprobada bloquea etapa perdido
+OK: reserva aprobada bloquea etapa nuevo
+OK: reserva aprobada bloquea etapa negociacion
+OK: reserva aprobada bloquea etapa cerrado
+OK: permite seguimiento sin cambiar reserva
+OK: estados de reserva siguen coherentes
+OK: cancelar restaura etapa y disponibilidad
+OK: consulta abierta permite visita
+OK: consulta perdida rechaza visita nueva
+OK: permite regularizar visita histórica de consulta perdida
+OK: inmueble vendido rechaza visita nueva
+OK: inmueble alquilado rechaza visita nueva
+OK: permite seguimiento después del cierre
+OK: consulta cerrada rechaza visita nueva

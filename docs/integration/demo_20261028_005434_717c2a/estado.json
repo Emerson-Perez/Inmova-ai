@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 68,
+      "nombres": "Administrador DEMO",
+      "apellidos": "Integración",
+      "email": "admin.demo_20261028_005434_717c2a@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "admin"
+    },
+    {
+      "id": 69,
+      "nombres": "Vendedora DEMO",
+      "apellidos": "Integración",
+      "email": "vendedora.demo_20261028_005434_717c2a@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "vendedor"
+    }
+  ],
+  "properties": [
+    {
+      "id": 90,
+      "titulo": "DEMO demo_20261028_005434_717c2a | Venta completada Miraflores",
+      "precio": "350000.00",
+      "moneda": "PEN",
+      "disponibilidad": "disponible",
+      "publicado": 1,
+      "creado_por": 69
+    }
+  ],
+  "leads": [],
+  "opportunities": [],
+  "visits": [],
+  "reservations": [],
+  "closings": [],
+  "tasks": [],
+  "documents": [],
+  "photos": [
+    {
+      "id": 5,
+      "propiedad_id": 90,
+      "es_principal": 1,
+      "ruta": "uploads/properties/0c24f77f040aa6ebf16417cff8a93a1e.png"
+    }
+  ],
+  "now_lima": "2026-10-27 19:54:36"
+}

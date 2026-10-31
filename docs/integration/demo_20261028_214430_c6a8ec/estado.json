@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 273,
+      "nombres": "Administrador DEMO",
+      "apellidos": "Integración",
+      "email": "admin.demo_20261028_214430_c6a8ec@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "admin"
+    },
+    {
+      "id": 275,
+      "nombres": "Vendedor DEMO",
+      "apellidos": "Sin asignación",
+      "email": "externo.demo_20261028_214430_c6a8ec@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "vendedor"
+    },
+    {
+      "id": 274,
+      "nombres": "Vendedora DEMO",
+      "apellidos": "Integración",
+      "email": "vendedora.demo_20261028_214430_c6a8ec@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "vendedor"
+    }
+  ],
+  "properties": [
+    {
+      "id": 276,
+      "titulo": "DEMO demo_20261028_214430_c6a8ec | Venta completada Miraflores",
+      "precio": "350000.00",
+      "moneda": "PEN",
+      "disponibilidad": "vendido",
+      "publicado": 0,
+      "creado_por": 274
+    },
+    {
+      "id": 277,
+      "titulo": "DEMO demo_20261028_214430_c6a8ec | Practicar flujo Miraflores",
+      "precio": "350000.00",
+      "moneda": "PEN",
+      "disponibilidad": "disponible",
+      "publicado": 1,
+      "creado_por": 274
+    }
+  ],
+  "leads": [
+    {
+      "id": 223,
+      "cliente_id": 89,
+      "propiedad_id": 276,
+      "vendedor_id": 274,
+      "etapa": "cerrado",
+      "nombres": "Cliente DEMO - Ana Torres",
+      "email": "ana.demo_20261028_214430_c6a8ec@example.test"
+    },
+    {
+      "id": 224,
+      "cliente_id": 90,
+      "propiedad_id": 277,
+      "vendedor_id": 3,
+      "etapa": "contactado",
+      "nombres": "Cliente DEMO - Luis Rojas",
+      "email": "luis.demo_20261028_214430_c6a8ec@example.test"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": 38,
+      "lead_id": 223,
+      "propiedad_id": 276,
+      "etapa": "ganada",
+      "monto_estimado": "335000.00",
+      "probabilidad": 100,
+      "moneda": "PEN",
+      "cierre_id": 101
+    }
+  ],
+  "visits": [
+    {
+      "id": 118,
+      "lead_id": 223,
+      "fecha_hora": "2026-10-28 16:45:00",
+      "estado_visita": "realizada",
+      "resultado": "DEMO: visita realizada. Ana valoró la distribución y solicitó negociar el precio final."
+    }
+  ],
+  "reservations": [
+    {
+      "id": 189,
+      "lead_id": 223,
+      "estado_reserva": "cerrada",
+      "monto_reserva": "10000.00",
+      "moneda": "PEN"
+    }
+  ],
+  "closings": [
+    {
+      "id": 101,
+      "reserva_id": 189,
+      "monto_final": "335000.00",
+      "moneda": "PEN",
+      "fecha_cierre": "2026-10-28"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 675,
+      "lead_id": 223,
+      "detalle": "DEMO: enviar ficha y confirmar los detalles de la visita.",
+      "proxima_accion": "2026-10-28 18:44:00",
+      "tarea_completada_at": "2026-10-28 16:44:41"
+    }
+  ],
+  "documents": [
+    {
+      "id": 303,
+      "propiedad_id": 276,
+      "titulo": "DEMO - Ficha técnica",
+      "estado": 1,
+      "storage_name": "66e6702decff9dce273068e5a1ff93b8.pdf"
+    }
+  ],
+  "photos": [
+    {
+      "id": 19,
+      "propiedad_id": 276,
+      "es_principal": 1,
+      "ruta": "uploads/properties/3551a4414921568ac48b4b4213a86134.png"
+    },
+    {
+      "id": 20,
+      "propiedad_id": 277,
+      "es_principal": 1,
+      "ruta": "uploads/properties/8b113ca2ac61e727a6a4b23c946603c2.png"
+    }
+  ],
+  "now_lima": "2026-10-28 16:45:04"
+}

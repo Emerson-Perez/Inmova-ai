@@ -1,0 +1,19 @@
+﻿OK: curso sin lecciones no se publica
+OK: no inscribirse en borrador
+OK: instructor no edita curso ajeno
+OK: alumno no crea cursos
+OK: instructor no altera lección ajena
+OK: curso con lecciones se publica
+OK: inscripción idempotente
+OK: no registrar progreso sin inscripción
+OK: primera lección da 50 por ciento
+OK: todas las lecciones completan inscripción
+OK: se puede volver a pendiente
+OK: agregar lección reabre progreso
+OK: retirar lección recalcula progreso
+OK: progreso aislado por alumno
+OK: instructor puede consultar alumnos inscritos
+OK: archivar conserva inscripción y retira publicación
+OK: no modificar progreso en curso archivado
+OK: retirar última lección vuelve a borrador
+OK: alumno no accede al catálogo de gestión

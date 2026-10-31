@@ -1,0 +1,25 @@
+﻿OK: solo inmuebles activos publicados y disponibles
+OK: tarjetas revalidan visibilidad y disponibilidad
+OK: no filtrar precio sin moneda
+OK: máximo cinco millones
+OK: presupuesto solo entero
+OK: conversaciones aisladas por sesión
+OK: respuesta estructurada validada
+OK: solicitud usa JSON schema y store false
+OK: datos de contacto evidentes y clave fuera del cuerpo enviado
+OK: IDs inventados por modelo rechazados
+OK: respuesta incompleta del proveedor controlada
+OK: rechazo del proveedor controlado
+OK: pausa entre mensajes controlada
+OK: límite diario por IP
+OK: límite diario global
+OK: fallos de cuota revierten incrementos parciales
+OK: no derivar inmueble borrador
+OK: derivación registra lead y vincula conversación
+OK: derivación idempotente
+OK: CRM autorizado recupera conversación
+OK: vendedor sin asignación no lee conversación
+OK: conversación derivada no admite más mensajes
+OK: cierre de conversación
+OK: sin configuración no se anuncia IA activa
+Pruebas del cliente IA usan transporte simulado; no hubo llamadas a OpenAI.

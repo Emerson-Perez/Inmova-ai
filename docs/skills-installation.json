@@ -1,0 +1,29 @@
+{
+    "scope":  "project",
+    "revision":  "e9809578fd426a284af017c5db99f8eb6628e6ca",
+    "skills":  [
+                   "php-pro",
+                   "software-architecture",
+                   "database-design",
+                   "backend-security-coder",
+                   "webapp-testing",
+                   "systematic-debugging",
+                   "test-driven-development",
+                   "verification-before-completion",
+                   "ui-ux-pro-max",
+                   "accessibility-compliance-accessibility-audit",
+                   "sql-optimization-patterns",
+                   "deployment-procedures",
+                   "llm-evaluation",
+                   "rag-implementation",
+                   "security-auditor",
+                   "error-handling-patterns",
+                   "code-review-excellence"
+               ],
+    "repository":  "https://github.com/sickn33/agentic-awesome-skills",
+    "skill_revisions":  {
+                            "code-review-excellence":  "e9809578fd426a284af017c5db99f8eb6628e6ca",
+                            "security-auditor":  "e9809578fd426a284af017c5db99f8eb6628e6ca",
+                            "error-handling-patterns":  "e9809578fd426a284af017c5db99f8eb6628e6ca"
+                        }
+}

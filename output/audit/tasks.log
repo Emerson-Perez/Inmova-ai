@@ -1,0 +1,14 @@
+﻿OK: límites horarios de vencidos, hoy y mañana
+OK: visitas canceladas/realizadas y extremo de siete días excluidos
+OK: vendedor no ve consultas sin asignación
+OK: cerrados/perdidos no generan pendientes y completados separados
+OK: seguimientos aislados por vendedor actual
+OK: administrador ve consultas sin asignar
+OK: vendedor no completa tarea ajena
+OK: completar conserva seguimiento y registra responsable/hora
+OK: completar dos veces es idempotente
+OK: reabrir devuelve pendiente al centro
+OK: reasignación revoca permisos anteriores
+OK: no reabrir pendientes de consulta cerrada
+OK: fechas se interpretan en hora de Lima
+OK: instructor sin acceso a pendientes comerciales

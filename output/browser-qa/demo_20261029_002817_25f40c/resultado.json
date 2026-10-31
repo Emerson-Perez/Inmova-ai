@@ -1,0 +1,44 @@
+{
+  "run": "demo_20261029_002817_25f40c",
+  "checks": [
+    {
+      "prueba": "Visitante es dirigido al login",
+      "correcta": true
+    },
+    {
+      "prueba": "Credenciales inválidas muestran un error",
+      "correcta": true
+    },
+    {
+      "prueba": "Administrador ingresa al dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta vendedora exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta externo exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor no puede administrar usuarios",
+      "correcta": true
+    },
+    {
+      "prueba": "Propiedad con fotografía creada desde formulario",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros combinados y numeración de propiedades",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros móviles sin desbordamiento de página",
+      "correcta": false
+    }
+  ],
+  "javascript_errors": [],
+  "failure": "AssertionError: Filtros móviles sin desbordamiento de página",
+  "accounts_disabled": true
+}

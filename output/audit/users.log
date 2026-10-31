@@ -1,0 +1,57 @@
+﻿PHP Warning:  session_start(): open(C:\xampp\tmp\sess_pc00n2phgl41qor6b1bqocenm4, O_RDWR) failed: Permission denied (13) in C:\xampp\htdocs\inmova-ai\tests\users.php on line 4
+PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\xampp\htdocs\inmova-ai\tests\users.php on line 4
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\inmova-ai\tests\users.php on line 65
+
+Warning: session_start(): open(C:\xampp\tmp\sess_pc00n2phgl41qor6b1bqocenm4, O_RDWR) failed: Permission denied (13) in C:\xampp\htdocs\inmova-ai\tests\users.php on line 4
+
+Warning: session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\xampp\htdocs\inmova-ai\tests\users.php on line 4
+OK: nueva cuenta guarda hash y exige cambio
+OK: correo duplicado rechazado
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+OK: login de cuenta nueva
+OK: sesión recuerda cambio obligatorio
+OK: cambio exige contraseña actual
+OK: contraseña débil rechazada
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+OK: cambio invalida sesión anterior
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+OK: solo funciona contraseña nueva
+OK: cambio propio completa cambio obligatorio
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+OK: desactivación revoca sesión y login
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+OK: reactivación conserva contraseña
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+OK: cambio de rol invalida sesión
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+OK: rol se actualiza al ingresar
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 35
+OK: restablecimiento invalida sesiones
+
+Warning: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\inmova-ai\app\core\Auth.php on line 11
+OK: restablecimiento exige cambiar contraseña
+OK: admin no crea superadministradores
+OK: admin no modifica superadministrador
+OK: no desactivar cuenta propia
+OK: no cambiar rol propio
+OK: restablecimiento propio requiere flujo de contraseña
+OK: roles restringidos para admin
+
+Warning: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\inmova-ai\tests\users.php on line 65

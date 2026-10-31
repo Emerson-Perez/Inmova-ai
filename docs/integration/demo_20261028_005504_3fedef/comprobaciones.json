@@ -1,0 +1,18 @@
+[
+  {
+    "prueba": "Cuenta nueva exige cambiar contraseña",
+    "correcta": true
+  },
+  {
+    "prueba": "Cambio de contraseña habilita acceso al módulo de propiedades",
+    "correcta": true
+  },
+  {
+    "prueba": "Precios decimales y superiores a cinco millones rechazados",
+    "correcta": true
+  },
+  {
+    "prueba": "Dos propiedades con ubicación y fotografía principal",
+    "correcta": true
+  }
+]

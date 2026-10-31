@@ -1,0 +1,21 @@
+﻿OK: moneda tomada del inmueble
+OK: no duplicar consulta/inmueble
+OK: vendedor no modifica oportunidad ajena
+OK: vendedor no vincula borrador ajeno
+OK: probabilidad máxima 100
+OK: monto solo entero
+OK: monto máximo cinco millones
+OK: ganada requiere cierre real
+OK: guardar sin cambios no duplica historial
+OK: separar moneda y operación; cartera aislada por vendedor
+OK: monto ponderado correcto
+OK: monto ponderado correcto
+OK: perdida fija probabilidad cero
+OK: reasignación de consulta cambia acceso
+OK: cierre marca ganada con monto final real
+OK: cierre cancela otras alternativas de la consulta
+OK: cierre marca perdida la competencia por el mismo inmueble
+OK: oportunidades resueltas salen del estimado abierto
+OK: ganada no se edita
+OK: consulta cerrada no reabre oportunidades
+OK: instructor sin acceso comercial

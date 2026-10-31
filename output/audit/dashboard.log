@@ -1,0 +1,6 @@
+﻿OK: administrador ve actividad y asignaciones pendientes
+OK: pendientes vacíos muestran cero
+OK: vendedor ve su actividad sin asignaciones globales
+OK: otros roles reciben accesos sin datos comerciales
+OK: errores de consultas visibles en el panel
+OK: nombre del usuario escapado

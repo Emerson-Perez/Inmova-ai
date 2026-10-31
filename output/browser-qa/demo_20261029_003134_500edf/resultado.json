@@ -1,0 +1,48 @@
+{
+  "run": "demo_20261029_003134_500edf",
+  "checks": [
+    {
+      "prueba": "Visitante es dirigido al login",
+      "correcta": true
+    },
+    {
+      "prueba": "Credenciales inválidas muestran un error",
+      "correcta": true
+    },
+    {
+      "prueba": "Administrador ingresa al dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta vendedora exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta externo exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor no puede administrar usuarios",
+      "correcta": true
+    },
+    {
+      "prueba": "Propiedad con fotografía creada desde formulario",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros combinados y numeración de propiedades",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros móviles sin desbordamiento de página",
+      "correcta": true
+    },
+    {
+      "prueba": "Menú móvil abre y cierra con sus controles",
+      "correcta": true
+    }
+  ],
+  "javascript_errors": [],
+  "failure": "AssertionError: Locator expected to be in viewport\nActual value: viewport ratio 0 \nCall log:\n  - Expect \"to_be_in_viewport\" get_by_role(\"link\", name=\"Editar\", exact=True) with timeout 5000ms\n  - waiting for get_by_role(\"link\", name=\"Editar\", exact=True)\n    13 × locator resolved to <a class=\"btn btn-sm btn-outline-primary\" href=\"/inmova-ai/public/properties/edit?id=280\">Editar</a>\n       - unexpected value \"viewport ratio 0\"\n\nAria snapshot:\n- link \"Editar\":\n  - /url: /inmova-ai/public/properties/edit?id=280",
+  "accounts_disabled": true
+}

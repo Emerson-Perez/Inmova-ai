@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 70,
+      "nombres": "Administrador DEMO",
+      "apellidos": "Integración",
+      "email": "admin.demo_20261028_005504_3fedef@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "admin"
+    },
+    {
+      "id": 71,
+      "nombres": "Vendedora DEMO",
+      "apellidos": "Integración",
+      "email": "vendedora.demo_20261028_005504_3fedef@inmova.test",
+      "estado": 0,
+      "password_change_required": 0,
+      "rol": "vendedor"
+    }
+  ],
+  "properties": [
+    {
+      "id": 91,
+      "titulo": "DEMO demo_20261028_005504_3fedef | Venta completada Miraflores",
+      "precio": "350000.00",
+      "moneda": "PEN",
+      "disponibilidad": "disponible",
+      "publicado": 1,
+      "creado_por": 71
+    },
+    {
+      "id": 92,
+      "titulo": "DEMO demo_20261028_005504_3fedef | Practicar flujo Miraflores",
+      "precio": "350000.00",
+      "moneda": "PEN",
+      "disponibilidad": "disponible",
+      "publicado": 1,
+      "creado_por": 71
+    }
+  ],
+  "leads": [],
+  "opportunities": [],
+  "visits": [],
+  "reservations": [],
+  "closings": [],
+  "tasks": [],
+  "documents": [
+    {
+      "id": 24,
+      "propiedad_id": 91,
+      "titulo": "DEMO - Ficha técnica",
+      "estado": 1,
+      "storage_name": "9ae60b4f4fd472cdc8bd6e4e38552ef7.pdf"
+    }
+  ],
+  "photos": [
+    {
+      "id": 6,
+      "propiedad_id": 91,
+      "es_principal": 1,
+      "ruta": "uploads/properties/84d377ae3d2ecb04bd3b02c40f9e8d0d.png"
+    },
+    {
+      "id": 7,
+      "propiedad_id": 92,
+      "es_principal": 1,
+      "ruta": "uploads/properties/a35938dd88ccc6c435e6433241c1b674.png"
+    }
+  ],
+  "now_lima": "2026-10-27 19:55:08"
+}

@@ -1,0 +1,156 @@
+{
+  "run": "demo_20261029_003205_9b1ae2",
+  "checks": [
+    {
+      "prueba": "Visitante es dirigido al login",
+      "correcta": true
+    },
+    {
+      "prueba": "Credenciales inválidas muestran un error",
+      "correcta": true
+    },
+    {
+      "prueba": "Administrador ingresa al dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta vendedora exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Cuenta externo exige cambio de contraseña",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor no puede administrar usuarios",
+      "correcta": true
+    },
+    {
+      "prueba": "Propiedad con fotografía creada desde formulario",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros combinados y numeración de propiedades",
+      "correcta": true
+    },
+    {
+      "prueba": "Filtros móviles sin desbordamiento de página",
+      "correcta": true
+    },
+    {
+      "prueba": "Menú móvil abre y cierra con sus controles",
+      "correcta": true
+    },
+    {
+      "prueba": "Tabla móvil permite desplazar hasta sus acciones",
+      "correcta": true
+    },
+    {
+      "prueba": "Consulta pública crea contacto y CRM",
+      "correcta": true
+    },
+    {
+      "prueba": "CRM asigna vendedor y conserva seguimiento",
+      "correcta": true
+    },
+    {
+      "prueba": "Otro vendedor no accede a consulta ajena",
+      "correcta": true
+    },
+    {
+      "prueba": "Visita confirmada desde navegador",
+      "correcta": true
+    },
+    {
+      "prueba": "Visita futura no puede marcarse realizada",
+      "correcta": true
+    },
+    {
+      "prueba": "Visita realizada guarda resultado",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor solicita reserva pendiente",
+      "correcta": true
+    },
+    {
+      "prueba": "Vendedor no tiene opción de aprobar",
+      "correcta": true
+    },
+    {
+      "prueba": "Aprobación sincroniza reserva, propiedad y CRM",
+      "correcta": true
+    },
+    {
+      "prueba": "Cierre sincroniza venta, reserva y consulta",
+      "correcta": true
+    },
+    {
+      "prueba": "Inmueble vendido deja de estar disponible en portal",
+      "correcta": true
+    },
+    {
+      "prueba": "Consulta cerrada no ofrece visitas ni reservas",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /properties",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /crm",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /opportunities",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /visits",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /reservations",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /closings",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /reports",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /tasks",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /academy",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /simulations",
+      "correcta": true
+    },
+    {
+      "prueba": "Navegación de vendedor /assistant",
+      "correcta": true
+    },
+    {
+      "prueba": "Cerrar sesión impide volver al dashboard",
+      "correcta": true
+    },
+    {
+      "prueba": "Sin excepciones JavaScript durante el recorrido",
+      "correcta": true
+    }
+  ],
+  "javascript_errors": [],
+  "failure": null,
+  "accounts_disabled": true
+}
